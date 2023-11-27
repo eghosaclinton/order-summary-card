@@ -1,0 +1,162 @@
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Red Hat Display', sans-serif;
+    background-image: url("/images/pattern-background-mobile.svg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: hsl(225, 100%, 94%);
+    font-weight: 500;
+}
+
+.flex{
+    display: flex;
+}
+
+.card{
+    width: 90%;
+    border-radius: 16.1698px;
+    margin: 7.5vh auto;
+    max-width: 337.5px;
+    flex-direction: column;
+    gap: 2rem;
+    background: hsl(225, 100%, 98%);
+}
+
+.card-child{
+    text-align: center;
+    flex-direction: column;
+    padding: 0 1rem 1rem;
+    gap: 1.25rem;
+}
+
+h1{
+    font-weight: 900;
+    margin: 0;
+    font-size: 1.5rem;
+    color: hsl(223, 47%, 23%);
+}
+
+p{
+    margin: 0;
+    color: hsl(224, 23%, 55%);
+}
+
+h3{
+    margin: 0;
+    font-weight: 700;
+    color: hsl(223, 47%, 23%);
+   
+}
+
+h4{
+    font-weight: 700;
+}
+
+
+.plan{
+    width: 100%;
+    padding: 1rem;
+    margin-inline: auto;
+    background-color: hsl(225, 100%, 96%);
+    align-items: center;
+    border-radius: 14.5698px;
+    justify-content: space-between;
+}
+
+.plan-child h4{
+    margin: 0;
+}
+
+.plan-child p{
+    margin: 0;
+}
+
+.plan a{
+    color: hsl(245, 75%, 52%);
+    transition: 0.5s;
+}
+
+.plan a:hover{
+    text-decoration: none;
+    color: hsl(245, 75%, 64%);
+}
+
+#hero-img-mobile{
+    border-top-right-radius: 16.1698px;
+    border-top-left-radius: 16.1698px;
+    width: 100%;
+}
+
+.pay{
+    width: 100%;
+    gap: 1rem;
+    flex-direction: column;
+}
+
+.btn{
+    width: 90%;
+    margin-inline: auto;
+    font-size: 1rem;
+    font-weight: 700;
+    border-radius: 11.65575px;
+    padding: 1rem 3rem;
+    color: hsl(225, 100%, 98%);
+    border: none;
+    background: hsl(245, 75%, 52%);
+    box-shadow: 0.1px 2.5px 5px hsl(223, 47%, 23%);
+    transition: 0.5s;
+}
+
+.btn:hover{
+    background-color: hsl(245, 75%, 64%);
+}
+
+.pay h3{
+    color: hsl(224, 23%, 55%);
+    transition: 0.5s;
+}
+
+.pay h3:hover{
+    color: hsl(223, 47%, 23%);
+}
+
+
+.attribution{
+    margin-inline: auto;
+    font-size: 0.6875rem;
+    text-align: center;
+    padding: 2em;
+}
+
+.attribution a{
+    color: hsl(228, 45%, 44%);
+}
+
+#user-name{
+    text-decoration: none;
+    font-weight: bold;
+    color: hsl(220, 15%, 55%);
+    font-family: monospace;
+    transition: 0.5s;
+}
+
+#user-name:hover{
+    text-shadow: red 1px 0, cyan -1px 0;
+}
+
+
+@media (min-width: 1023px){
+
+    body{
+        background-image: url(/images/pattern-background-desktop.svg);
+        background-color: hsl(225, 100%, 94%);
+        background-size: 100% 25vh;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+    }
+}
